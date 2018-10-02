@@ -44,7 +44,7 @@ def main():
     c = db.cursor()
 
     # Open the file
-    file = open("result_file.txt", "w")
+    file = open("data_result.txt", "w")
 
     # Looping for writing in file
     t = "1. What are the most popular three articles of all time? \r\n"
